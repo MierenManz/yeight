@@ -1,0 +1,11 @@
+[package]
+name = "yeight-db"
+version = "0.1.0"
+authors = ["Skyler van Boheemen"]
+edition = "2018"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+sqlite = "0.26.0"

@@ -1,0 +1,13 @@
+[package]
+name = "yeight"
+version = "0.1.0"
+authors = ["Skyler van Boheemen"]
+edition = "2018"
+
+[dependencies]
+yeight-http = { path = "./src/http", version = "0.1.0" }
+clap = "2.33.3"
+
+[profile.release]
+lto = true
+opt-level = 3

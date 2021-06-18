@@ -1,0 +1,10 @@
+[package]
+name = "yeight-ws"
+version = "0.1.0"
+authors = ["Skyler van Boheemen"]
+edition = "2018"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
